@@ -570,65 +570,164 @@ document.addEventListener("DOMContentLoaded", () => {
   // Project Data System
   const projects = [
     {
-      id: "ai-study",
-      position: 0,
-      label: "AI EDUCATION PLATFORM",
-      title: "AI Study Assistant Platform",
-      image: "src/assets/projects/ai-study-assistant.jpg",
-      description:
-        "A comprehensive AI-powered learning ecosystem designed to help students study smarter through personalized learning paths, intelligent content generation, contextual knowledge retrieval, adaptive assessments, and real-time performance analytics.",
-      tags: [
-        "Next.js 14",
-        "TypeScript",
-        "OpenAI",
-        "PostgreSQL",
-        "Tailwind CSS",
-      ],
-      architecture: "AI-Native Learning System",
-      techHierarchy: "Frontend: Next.js 14 | Backend: PostgreSQL | AI: OpenAI",
-      performance: "LCP < 0.9s | CLS 0.02 | Response Time < 800ms",
-      demoUrl: "https://demo.example.com",
-      githubUrl: "https://github.com",
+  id: "globalgrad",
+position: 0,
+label: "AI STUDY ABROAD PLATFORM",
+title: "GlobalGrad",
+image: "src/assets/globalgrad.jpg",
+
+description:
+  "An AI-powered study abroad platform that helps students discover universities, scholarships, countries, and manage applications through intelligent guidance and real-time information.",
+
+tags: [
+  "React",
+  "TypeScript",
+  "Node.js",
+  "Express",
+  "Firebase",
+  "Gemini AI"
+],
+
+architecture: "Study Abroad Decision Ecosystem",
+
+performance: "AI Powered | Real-Time Data | Cloud Hosted",
+
+features: [
+  {
+    // Graduation Cap
+    icon: '<path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1.5 3 3 6 3s6-1.5 6-3v-5"/>',
+    text: "University Explorer",
+  },
+  {
+    // Award / Scholarship
+    icon: '<circle cx="12" cy="8" r="5"/><path d="m8 13-1 8 5-3 5 3-1-8"/>',
+    text: "Scholarship Finder",
+  },
+  {
+    // Globe
+    icon: '<circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15 15 0 0 1 0 20"/><path d="M12 2a15 15 0 0 0 0 20"/>',
+    text: "Country Comparison",
+  },
+  {
+    // Bot / AI
+    icon: '<rect x="4" y="8" width="16" height="10" rx="2"/><path d="M12 4v4"/><circle cx="9" cy="13" r="1"/><circle cx="15" cy="13" r="1"/>',
+    text: "AI Assistant",
+  },
+  {
+    // Clipboard
+    icon: '<rect x="6" y="4" width="12" height="16" rx="2"/><path d="M9 2h6v4H9z"/><path d="M9 10h6"/><path d="M9 14h4"/>',
+    text: "Application Tracking",
+  },
+  {
+    // Dashboard
+    icon: '<rect x="3" y="3" width="8" height="8" rx="1"/><rect x="13" y="3" width="8" height="5" rx="1"/><rect x="13" y="10" width="8" height="11" rx="1"/><rect x="3" y="13" width="8" height="8" rx="1"/>',
+    text: "Admin Dashboard",
+  },
+],
+
+metrics: [
+  { value: "120+", label: "Universities" },
+  { value: "15+", label: "Countries" },
+  { value: "500+", label: "Scholarships " },
+  { value: "24/7", label: "AI Guidance" },
+],
+    demoUrl:
+    "https://global-grad-im0rw36bo-yasashvichowdaryvallepalli-5916s-projects.vercel.app/",
+
+  githubUrl:
+    "https://github.com/yasashvi45/GlobalGrad",
       mockupVariant: "mini-mockup variant-1",
       actions: [
         { type: "primary", text: "Case Study" },
         {
           type: "secondary",
           text: "Live Demo",
-          url: "https://demo.example.com",
+          url: "https://global-grad-im0rw36bo-yasashvichowdaryvallepalli-5916s-projects.vercel.app/",
         },
         {
           type: "icon",
           icon: '<path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>',
         },
       ],
-      caseStudy: {
-        category: "Software Engineering Project",
-        duration: "Development Phase",
-        overview: "Project details can be expanded as development progresses.",
-        problem: "Project details can be expanded as development progresses.",
-        solution: "Project details can be expanded as development progresses.",
-        features: [
-          { name: "Core Feature", desc: "Project details can be expanded as development progresses." }
-        ],
-        implementation: {
-          frontend: "Project details can be expanded as development progresses."
-        },
-        challenges: [
-          "Project details can be expanded as development progresses."
-        ],
-        learnings: [
-          "Project details can be expanded as development progresses."
-        ],
-        future: [
-          "Project details can be expanded as development progresses."
-        ],
-        outcome: "Project details can be expanded as development progresses."
-      }
+         
+   caseStudy: {
+  category: "AI Study Abroad Platform",
+
+  duration: "2026",
+
+  overview:
+    "GlobalGrad is an AI-powered study abroad platform that simplifies university selection, scholarship discovery, country comparison, and application management.",
+
+  problem:
+    "Students struggle to find reliable information about universities, scholarships, tuition fees, and application requirements across different countries.",
+
+  solution:
+    "Built a centralized platform with AI-powered guidance, university exploration tools, scholarship management, and admin controls.",
+
+  features: [
+    {
+      name: "University Explorer",
+      desc: "Search and compare universities worldwide."
+    },
+    {
+      name: "Scholarship Finder",
+      desc: "Discover funding opportunities."
+    },
+    {
+      name: "Country Comparison",
+      desc: "Compare tuition, living costs and visa pathways."
+    },
+    {
+      name: "AI Assistant",
+      desc: "Gemini-powered personalized guidance."
+    },
+    {
+      name: "Application Tracking",
+      desc: "Manage student applications."
+    },
+    {
+      name: "Admin Dashboard",
+      desc: "Manage universities, scholarships and users."
+    }
+  ],
+
+  implementation: {
+    frontend: "React + TypeScript",
+    backend: "Node.js + Express",
+    database: "Firebase",
+    ai: "Google Gemini AI"
+  },
+
+  challenges: [
+    "AI integration",
+    "Admin dashboard development",
+    "University data management",
+    "Deployment and scalability"
+  ],
+
+  learnings: [
+    "Full Stack Development",
+    "Firebase Integration",
+    "REST APIs",
+    "AI Integration",
+    "Cloud Deployment"
+  ],
+
+  future: [
+    "Visa Guidance",
+    "IELTS Preparation",
+    "AI University Recommendation",
+    "Student Community",
+    "Deadline Notifications"
+  ],
+
+  outcome:
+    "Successfully developed and deployed an AI-powered study abroad platform with intelligent student assistance and complete administration tools."
+}
     },
     {
       id: "chronova-watch",
-      position: 1,
+      position: 0,
       label: "LUXURY E-COMMERCE",
       title: "Chronova",
       image: "src/assets/chronova.jpg",
@@ -696,7 +795,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       id: "campus-issue",
-      position: 2,
+      position: 1,
       label: "CAMPUS MANAGEMENT",
       title: "Campus Issue Reporting System",
       image: "src/assets/campus issue reporting system.jpg",
@@ -827,15 +926,15 @@ document.addEventListener("DOMContentLoaded", () => {
       architecture: "WEBSOCKETS",
       techHierarchy: "Frontend: Vue.js | Backend: Node.js | DB: MongoDB",
       performance: "Real-time sync",
-      demoUrl: "https://demo.example.com",
-      githubUrl: "https://github.com",
+      demoUrl: "https://global-grad-im0rw36bo-yasashvichowdaryvallepalli-5916s-projects.vercel.app/",
+      githubUrl: "https://github.com/yasashvi45/GlobalGrad",
       mockupVariant: "mini-mockup variant-1",
       actions: [
         { type: "primary", text: "Case Study" },
         {
           type: "secondary",
           text: "Live Demo",
-          url: "https://demo.example.com",
+          url: "https://global-grad-im0rw36bo-yasashvichowdaryvallepalli-5916s-projects.vercel.app/",
         },
         {
           type: "icon",
@@ -1007,64 +1106,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const carouselTrack = document.querySelector(".carousel-track");
 
     if (featuredContainer) {
-      const featured = {
-        id: "ai-study",
-        position: 1,
-        label: "AI EDUCATION PLATFORM",
-        title: "AI Study Assistant Platform",
-        image: "src/assets/projects/ai-study-assistant.jpg",
-        description:
-          "A comprehensive AI-powered learning ecosystem designed to help students study smarter through personalized learning paths, intelligent content generation, contextual knowledge retrieval, adaptive assessments, and real-time performance analytics.",
-        tags: [
-          "Next.js 14",
-          "TypeScript",
-          "OpenAI",
-          "PostgreSQL",
-          "Tailwind CSS",
-        ],
-        architecture: "AI-Native Learning System",
-        performance: "LCP < 0.9s | CLS 0.02 | < 800ms",
-        features: [
-          {
-            icon: '<rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/>',
-            text: "Personalized Learning Paths",
-          },
-          {
-            icon: '<path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>',
-            text: "AI Quiz Generation",
-          },
-          {
-            icon: '<path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/>',
-            text: "Contextual RAG Retrieval",
-          },
-          {
-            icon: '<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/>',
-            text: "Adaptive Assessments",
-          },
-          {
-            icon: '<path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/>',
-            text: "Real-Time Progress Analytics",
-          },
-          {
-            icon: '<rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/>',
-            text: "Smart Revision Engine",
-          },
-        ],
-        metrics: [
-          { value: "95%", label: "Learning Accuracy" },
-          { value: "40%", label: "Faster Revision" },
-          { value: "10K+", label: "Knowledge Nodes" },
-          { value: "24/7", label: "AI Assistance" },
-        ],
-        actions: [
-          { type: "primary", text: "Case Study" },
-          { type: "secondary", text: "Live Demo" },
-          {
-            type: "icon",
-            icon: '<path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>',
-          },
-        ],
-      };
+    const featured = projects.find(
+  p => p.id === "globalgrad"
+);
+      
 
       featuredContainer.innerHTML = `
       <div class="featured-card premium-product-showcase group">
@@ -1112,8 +1157,9 @@ document.addEventListener("DOMContentLoaded", () => {
               <span class="spec-value">${featured.architecture || "N/A"}</span>
             </div>
             <div class="spec-item">
-              <span class="spec-label">PERFORMANCE</span>
-              <span class="spec-value text-accent">LCP &lt; 0.9s | CLS 0.02 | Resp. &lt; 800ms</span>
+                <span class="spec-value text-accent">
+               Gemini AI | Firebase | Full Stack
+               </span>
             </div>
           </div>
 
@@ -1176,7 +1222,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Sort by position ASC (filtering out the featured project)
     const sortedProjects = [...projects]
-      .filter((p) => p.id !== "ai-study")
+      .filter((p) => p.id !== "globalgrad")
       .sort((a, b) => a.position - b.position);
 
     window.openCaseStudy = openCaseStudy; // Expose to global for onclick
