@@ -13493,6 +13493,7 @@ body {
   }
 
   /* Target exactly the non-essential/duplicate navigation items and remove on mobile only */
+  /*
   .sidebar .nav-item[data-section="work"],
   .sidebar .nav-item[data-section="more-work"],
   .sidebar .nav-item[data-section="internships"],
@@ -13500,7 +13501,7 @@ body {
   .sidebar .nav-item[data-section="resume"],
   .sidebar .nav-item[data-section="contact"] {
     display: none !important;
-  }
+  }*/
 
   .nav-item {
     font-size: 14px !important; /* High fidelity crisp and clean rendering */

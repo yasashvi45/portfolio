@@ -2013,16 +2013,89 @@ metrics: [
       url: "src/assets/certificates/meta Introduction to front end development.pdf",
     },
     {
+  id: "ibm-ai-fundamentals",
+  title: "Artificial Intelligence Fundamentals",
+  provider: "IBM SkillsBuild",
+  type: "verify",
+  description:
+    "Foundational certification covering AI concepts, machine learning basics, neural networks, responsible AI, real-world AI applications, and emerging technologies.",
+  date: "2026",
+  logo: '<path d="M12 2a3 3 0 0 1 3 3v2h2a3 3 0 0 1 3 3v4a3 3 0 0 1-3 3h-2v2a3 3 0 0 1-3 3h-4a3 3 0 0 1-3-3v-2H5a3 3 0 0 1-3-3v-4a3 3 0 0 1 3-3h2V5a3 3 0 0 1 3-3z"/>',
+  image: "src/assets/artificial intelligence fundamentals.jpg",
+  url: "https://www.credly.com/earner/earned/badge/48771ba6-adef-447b-93ff-38f2ea223c7c"
+},
+{
+  id: "ibm-frontend",
+  title: "Front-End Web Development",
+  provider: "IBM SkillsBuild",
+  type: "verify",
+  description:
+    "Covers modern front-end development including HTML5, CSS3, JavaScript, responsive design, UI/UX principles, accessibility, and web application development.",
+  date: "2026",
+  logo: '<path d="M8 6h8v12H8z"/><path d="M12 10h.01"/><path d="M10 14h4"/>',
+  image: "src/assets/front-end web development.jpg",
+  url: "https://www.credly.com/earner/earned/badge/db49fee5-7de8-453c-b769-811e9a604ed2"
+},
+{
+  id: "ibm-backend",
+  title: "Back-End Development",
+  provider: "IBM SkillsBuild",
+  type: "verify",
+  description:
+    "Certification focused on server-side development, APIs, databases, backend architecture, application deployment, security practices, and scalable web services.",
+  date: "2026",
+  logo: '<path d="M8 4h8v6H8z"/><path d="M4 14h16"/><path d="M8 20h8"/>',
+  image: "src/assets/Back-end web development.jpg",
+  url: "https://www.credly.com/earner/earned/share/256e8cef-0e49-40f7-aa56-fe8413f38769"
+},
+{
+  id: "ibm-responsive",
+  title: "Responsive Web Page Development",
+  provider: "IBM SkillsBuild",
+  type: "verify",
+  description:
+    "Focused on building responsive websites using modern CSS techniques, mobile-first design principles, adaptive layouts, cross-device compatibility, and performance optimization.",
+  date: "2026",
+  logo: '<path d="M5 4h14v12H5z"/><path d="M9 20h6"/><path d="M12 16v4"/>',
+  image: "src/assets/responsive web page development.jpg",
+  url: "https://www.credly.com/earner/earned/badge/d6323898-6dc4-4371-938f-619afde11f9f"
+},
+{
+  id: "ibm-genai",
+  title: "Generative AI Essentials: Using LLMs to Work with Data",
+  provider: "IBM SkillsBuild",
+  type: "verify",
+  description:
+    "Certification demonstrating practical knowledge of generative AI, large language models, prompt engineering, data analysis workflows, and AI-assisted productivity.",
+  date: "2026",
+  logo: '<path d="M12 2v20"/><path d="M2 12h20"/><path d="M5 5l14 14"/><path d="M19 5L5 19"/>',
+  image: "src/assets/generative ai llms.jpg",
+  url: "https://www.credly.com/earner/earned/badge/a448bd6d-9b03-4fac-80b9-cd6f88fe07d9"
+},
+{
+  id: "ibm-granite",
+  title: "Data Classification and Summarization Using IBM Granite",
+  provider: "IBM SkillsBuild",
+  type: "verify",
+  description:
+    "Demonstrates skills in AI-powered data classification, summarization techniques, IBM Granite models, prompt engineering, and intelligent information extraction.",
+  date: "2026",
+  logo: '<path d="M4 6h16v12H4z"/><path d="M8 10h8"/><path d="M8 14h5"/>',
+  image: "src/assets/data classification granite.jpg",
+  url: "https://www.credly.com/earner/earned/badge/3c7052a0-7e87-4132-abc0-f3f1e53dd5ba"
+},
+    {
       id: "ibm-dt",
       title: "Enterprise Design Thinking Practitioner",
       provider: "IBM",
+      type: "verify",
       description:
         "Industry-recognized certification focused on human-centered design, innovation frameworks, customer-centric problem solving, ideation, and product development methodologies.",
       date: "2024",
       logo: '<path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/>',
       image:
         "src/assets/enterprise design thinking practitioner.jpg",
-      url: "src/assets/certificates/EnterpriseDesignThinking.pdf",
+      url: "https://www.credly.com/earner/earned/badge/2d795fdb-8358-4e25-a331-d3a5e8e37d61",
     },
     {
       id: "uipath-auto",
@@ -2118,8 +2191,15 @@ metrics: [
               <div class="chc-reveal-content">
                 <h3 class="chc-reveal-title">${cert.title}</h3>
                 <p class="chc-reveal-desc">${cert.description}</p>
-                <a class="chc-reveal-btn" href="${cert.url}" target="_blank" rel="noopener" download>
-                  Download Certificate (PDF)
+                <a class="chc-reveal-btn"
+                href="${cert.url}"
+                 target="_blank"
+                 rel="noopener"
+                 ${cert.type !== "verify" ? "download" : ""}>
+
+                  ${cert.type === "verify"
+                  ? "Verify Credentials"
+                   : "Download Certificate (PDF)"}
                   <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left: 2px;"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
                 </a>
               </div>
