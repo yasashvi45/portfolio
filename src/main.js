@@ -642,7 +642,7 @@ metrics: [
         {
           type: "secondary",
           text: "Live Demo",
-          url: "https://global-grad-im0rw36bo-yasashvichowdaryvallepalli-5916s-projects.vercel.app/",
+          url: "https://global-grad-3qmounh9f-yasashvichowdaryvallepalli-5916s-projects.vercel.app/",
         },
         {
           type: "icon",
