@@ -2061,6 +2061,39 @@ metrics: [
   url: "https://www.credly.com/earner/earned/badge/d6323898-6dc4-4371-938f-619afde11f9f"
 },
 {
+  id: "ibm-interactive-frontend",
+  title: "Interactive Front-End Development",
+  provider: "IBM SkillsBuild",
+  type: "verify",
+  description: "Certification demonstrating practical skills in building interactive front-end applications using modern web technologies.",
+  date: "2026",
+  logo: '<path d="M5 4h14v12H5z"/><path d="M9 20h6"/><path d="M12 16v4"/>',
+  image: "src/assets/interactive front-end development.jpg",
+  url: "https://www.credly.com/earner/earned/badge/8842e9da-c30b-4561-94f5-49126d2a46aa"
+},
+{
+  id: "ibm-databases",
+  title: "Integration of Databases",
+  provider: "IBM SkillsBuild",
+  type: "verify",
+  description: "Certification covering database integration concepts, data connectivity, and application integration.",
+  date: "2026",
+    logo: '<path d="M5 4h14v12H5z"/><path d="M9 20h6"/><path d="M12 16v4"/>',
+  image: "src/assets/integration of databases.jpg",
+  url: "https://www.credly.com/earner/earned/badge/9a31de1b-9dcd-4716-b840-c44ced033b31"
+},
+{
+  id: "ibm-testing",
+  title: "Web Application Testing and Deployment",
+  provider: "IBM SkillsBuild",
+  type: "verify",
+  description: "Certification focused on testing, debugging, deployment strategies, and production-ready web applications.",
+  date: "2026",
+      logo: '<path d="M5 4h14v12H5z"/><path d="M9 20h6"/><path d="M12 16v4"/>',
+  image: "src/assets/web application testing deployment.jpg",
+  url: "https://www.credly.com/earner/earned/share/0b0c579d-365b-46df-88b7-d9574f997309"
+},
+{
   id: "ibm-genai",
   title: "Generative AI Essentials: Using LLMs to Work with Data",
   provider: "IBM SkillsBuild",
