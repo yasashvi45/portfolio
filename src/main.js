@@ -730,22 +730,22 @@ metrics: [
       position: 0,
       label: "LUXURY E-COMMERCE",
       title: "Chronova",
-      image: "src/assets/chronova.jpg",
+      image: "src/assets/chronova.png",
       description:
         "Premium luxury watch e-commerce platform featuring category browsing, authentication workflows, shopping cart management, and personalized customer dashboards.",
       tags: ["HTML", "CSS", "JavaScript"],
       architecture: "RESPONSIVE",
       techHierarchy: "Frontend: HTML, CSS, JavaScript",
       performance: "ECOM",
-      demoUrl: "https://yasashvi45.github.io/chronova-website/",
-      githubUrl: "https://github.com/Yasashvi45/chronova-website",
+      demoUrl: "https://yasashvi45.github.io/Chronova/",
+      githubUrl: "https://github.com/yasashvi45/Chronova",
       mockupVariant: "mini-mockup variant-1",
       actions: [
         { type: "primary", text: "Case Study" },
         {
           type: "secondary",
           text: "Live Demo",
-          url: "https://yasashvi45.github.io/chronova-website/",
+          url: "https://yasashvi45.github.io/Chronova/",
         },
         {
           type: "icon",
@@ -786,8 +786,6 @@ metrics: [
         future: [
           "Payment Integration",
           "User Authentication",
-          "Wishlist",
-          "Product Reviews",
           "Admin Dashboard"
         ],
         outcome: "Successfully created a luxury-inspired e-commerce platform showcasing frontend engineering and modern design capabilities."
