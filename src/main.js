@@ -727,7 +727,7 @@ metrics: [
     },
     {
       id: "chronova-watch",
-      position: 0,
+      position: 1,
       label: "LUXURY E-COMMERCE",
       title: "Chronova",
       image: "src/assets/chronova.png",
@@ -793,7 +793,7 @@ metrics: [
     },
     {
       id: "campus-issue",
-      position: 1,
+      position: 2,
       label: "CAMPUS MANAGEMENT",
       title: "Campus Issue Reporting System",
       image: "src/assets/campus issue reporting system.jpg",
@@ -862,56 +862,147 @@ metrics: [
       }
     },
     {
-      id: "life-os",
-      position: 3,
-      label: "PRODUCTIVITY SUITE",
-      title: "LifeOS Personal Workspace",
-      image: "src/assets/projects/life-os.jpg",
-      description:
-        "An all-in-one productivity suite combining task management, habit tracking, journaling, and goal setting into a single unified dashboard.",
-      tags: ["React", "TypeScript", "Redux", "Supabase", "Tailwind CSS"],
-      architecture: "SPA",
-      techHierarchy: "Frontend: React | Backend: Supabase",
-      performance: "Offline-First",
-      demoUrl: "https://demo.example.com",
-      githubUrl: "https://github.com",
-      mockupVariant: "mini-mockup variant-1",
-      actions: [
-        { type: "primary", text: "Case Study" },
-        {
-          type: "secondary",
-          text: "Live Demo",
-          url: "https://demo.example.com",
-        },
-        {
-          type: "icon",
-          icon: '<path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>',
-        },
-      ],
-      caseStudy: {
-        category: "Software Engineering Project",
-        duration: "Development Phase",
-        overview: "Project details can be expanded as development progresses.",
-        problem: "Project details can be expanded as development progresses.",
-        solution: "Project details can be expanded as development progresses.",
-        features: [
-          { name: "Core Feature", desc: "Project details can be expanded as development progresses." }
-        ],
-        implementation: {
-          frontend: "Project details can be expanded as development progresses."
-        },
-        challenges: [
-          "Project details can be expanded as development progresses."
-        ],
-        learnings: [
-          "Project details can be expanded as development progresses."
-        ],
-        future: [
-          "Project details can be expanded as development progresses."
-        ],
-        outcome: "Project details can be expanded as development progresses."
-      }
+  id: "insight-iq",
+  position: 0,
+  label: "AI BUSINESS INTELLIGENCE",
+  title: "InsightIQ AI Business Intelligence Platform",
+  image: "src/assets/insight-iq.jpg",
+  description:
+    "A full-stack AI-powered business intelligence platform that transforms business datasets into interactive analytics, KPIs, forecasts, reports, and actionable AI insights.",
+  tags: [
+    "React",
+    "TypeScript",
+    "Node.js",
+    "Express",
+    "Firebase",
+    "Supabase",
+    "Gemini AI",
+    "Vercel"
+  ],
+  architecture: "Full-Stack",
+  techHierarchy:
+    "Frontend: React + TypeScript | Backend: Node.js + Express | AI: Google Gemini | Data: Firebase + Supabase",
+  performance: "Cloud-Powered",
+  demoUrl: "https://insight-iq-ten.vercel.app",
+  githubUrl: "https://github.com/yasashvi45/InsightIQ",
+  mockupVariant: "mini-mockup variant-1",
+  actions: [
+    { type: "primary", text: "Case Study" },
+    {
+      type: "secondary",
+      text: "Live Demo",
+      url: "https://insight-iq-ten.vercel.app",
     },
+    {
+      type: "icon",
+      icon: '<path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>',
+    },
+  ],
+  caseStudy: {
+    category: "AI-Powered Business Intelligence Platform",
+    duration: "Development & Production Deployment",
+
+    overview:
+      "InsightIQ is a full-stack business intelligence platform designed to help users transform raw business datasets into meaningful insights. Users can upload and manage datasets, explore interactive analytics and KPIs, generate reports and forecasts, and interact with an AI Business Assistant using natural-language questions.",
+
+    problem:
+      "Business datasets often contain thousands of records that require manual calculations, filtering, chart creation, and interpretation. Non-technical users may find it difficult to quickly identify important trends, top-performing products, revenue patterns, and areas that need attention.",
+
+    solution:
+      "InsightIQ combines data analytics, interactive visualization, cloud persistence, and generative AI into one platform. Users upload a dataset and InsightIQ processes the data into KPIs and visual analytics. The AI Business Assistant uses the active dataset context to answer natural-language questions, generate insights, and provide business recommendations.",
+
+    features: [
+      {
+        name: "Interactive Analytics Dashboard",
+        desc:
+          "Provides business KPIs, revenue metrics, customer statistics, product performance, category analysis, and interactive visualizations."
+      },
+      {
+        name: "AI Business Assistant",
+        desc:
+          "Allows users to ask natural-language questions about their business data and receive contextual explanations, insights, and recommendations."
+      },
+      {
+        name: "AI-Powered Insights",
+        desc:
+          "Uses Google Gemini to analyze dataset context and generate meaningful business findings and recommendations."
+      },
+      {
+        name: "Forecasting",
+        desc:
+          "Provides trend and forecasting capabilities to help users understand potential future business performance."
+      },
+      {
+        name: "Business Reports",
+        desc:
+          "Converts analytics and AI-generated findings into structured business reports."
+      },
+      {
+        name: "Multi-Dataset Management",
+        desc:
+          "Allows authenticated users to upload, manage, switch between, and persist multiple business datasets."
+      },
+      {
+        name: "Cloud Data Persistence",
+        desc:
+          "Stores dataset files in Supabase Storage while maintaining dataset metadata and user associations through Firebase Firestore."
+      },
+      {
+        name: "Authentication",
+        desc:
+          "Uses Firebase Authentication to provide authenticated access and associate datasets with individual users."
+      }
+    ],
+
+    implementation: {
+      frontend:
+        "React, TypeScript, Vite, Tailwind CSS, React Router, and Recharts were used to build the responsive analytics dashboard, visualizations, dataset management interface, and AI Assistant.",
+      backend:
+        "Node.js and Express.js provide the REST API layer for dataset processing, AI requests, storage operations, and server-side business logic.",
+      ai:
+        "Google Gemini is integrated through the backend to interpret natural-language questions and generate contextual business insights based on the active dataset.",
+      database:
+        "Firebase Authentication handles user authentication while Firestore stores lightweight dataset metadata and user relationships.",
+      storage:
+        "Supabase Storage stores the actual uploaded dataset files separately from Firestore metadata.",
+      deployment:
+        "The application is deployed on Vercel using a serverless API entry point and a production React frontend."
+    },
+
+    challenges: [
+      "Designing reliable dataset persistence for a serverless production environment.",
+      "Separating large dataset files from lightweight Firestore metadata to avoid document size limitations.",
+      "Ensuring datasets could be restored after browser refresh and across authenticated sessions.",
+      "Keeping Gemini API credentials server-side instead of exposing them in the frontend.",
+      "Integrating natural-language AI responses with the application's analytics workflow.",
+      "Configuring the backend correctly for Vercel serverless deployment."
+    ],
+
+    learnings: [
+      "Full-stack application architecture using React, Node.js, and Express.",
+      "Cloud authentication and database management using Firebase.",
+      "Persistent file storage using Supabase Storage.",
+      "Generative AI integration using the Google Gemini API.",
+      "Natural-language interfaces for business data analysis.",
+      "Interactive data visualization and analytics.",
+      "Serverless deployment and production debugging with Vercel.",
+      "Designing scalable data persistence by separating file storage from metadata."
+    ],
+
+    future: [
+      "Direct browser-to-Supabase uploads for larger datasets.",
+      "Advanced anomaly detection.",
+      "More sophisticated forecasting models.",
+      "Automated scheduled reports.",
+      "Additional business data connectors.",
+      "Advanced role-based access control.",
+      "AI-generated dashboards and deeper automated analytics."
+    ],
+
+    outcome:
+      "Built and deployed a functional full-stack AI business intelligence platform that combines cloud authentication, persistent dataset storage, interactive analytics, generative AI, reporting, forecasting, and serverless deployment into a unified product."
+  }
+},
     {
       id: "doc-workspace",
       position: 4,
@@ -1218,18 +1309,16 @@ metrics: [
 
     if (!carouselTrack) return;
 
-    // Sort by position ASC (filtering out the featured project)
     const sortedProjects = [...projects]
       .filter((p) => p.id !== "globalgrad")
       .sort((a, b) => a.position - b.position);
 
-    window.openCaseStudy = openCaseStudy; // Expose to global for onclick
+    window.openCaseStudy = openCaseStudy; 
 
-    // Render exactly 4 carousel cards, no duplicates or generated copies
     carouselTrack.innerHTML = sortedProjects
       .map((p) => {
         if (!p.image) {
-          // Check for image path as per requirements
+          
         }
 
         return `
@@ -1284,7 +1373,6 @@ metrics: [
     initMagneticButtons();
   }
 
-  // Spacing Fix: Increase gap between top label and sub-line
   
   // Premium Portfolio Loader
   const setupLoaderAndTriggerSequence = () => {
@@ -1786,7 +1874,7 @@ metrics: [
   const sectionOptions = {
     root: scrollContainer,
     threshold: 0,
-    rootMargin: "-10% 0px -10% 0px", // Trigger as soon as slightly in view
+    rootMargin: "-10% 0px -10% 0px", 
   };
 
   const sectionObserver = new IntersectionObserver((entries) => {
@@ -1860,11 +1948,10 @@ metrics: [
       if (!isDeleting && textIndex < fullText.length) {
         textIndex++;
       } else if (isDeleting && textIndex > 0) {
-        // Only delete after a long pause
+      
         textIndex--;
       } else {
-        // Stay at the finished state for a significantly longer time (15 seconds)
-        // This makes the UI feel more like a stable engineering dashboard
+  
         typeSpeed = isDeleting ? 800 : 15000;
         isDeleting = !isDeleting;
       }
@@ -1878,7 +1965,6 @@ metrics: [
 
   viewSections.forEach((sec) => sectionObserver.observe(sec));
 
-  // Subtle Parallax Effect
   const parallaxElements = document.querySelectorAll(
     ".sidebar, .hero-left, .about-right, .ai-left, .resume-left",
   );
@@ -1891,7 +1977,6 @@ metrics: [
         : window;
 
     scrollTarget.addEventListener("scroll", () => {
-      // Parallax shifts disabled as per user instruction to stabilize internal section content
     });
   }
 
@@ -2128,54 +2213,8 @@ metrics: [
         "src/assets/enterprise design thinking practitioner.jpg",
       url: "https://www.credly.com/earner/earned/badge/2d795fdb-8358-4e25-a331-d3a5e8e37d61",
     },
-    {
-      id: "uipath-auto",
-      title: "UiPath Automation Implementation Methodology Fundamentals",
-      provider: "UiPath",
-      description:
-        "Professional certification covering robotic process automation fundamentals, automation lifecycle management, workflow design, implementation methodologies, and enterprise automation practices.",
-      date: "2024",
-      logo: '<rect width="8" height="8" x="2" y="2" rx="2"/><rect width="8" height="8" x="14" y="2" rx="2"/><rect width="8" height="8" x="14" y="14" rx="2"/><path d="M6 10v4a2 2 0 0 0 2 2h6"/><path d="M18 10v4"/>',
-      image:
-        "src/assets/uipath.jpg",
-      url: "src/assets/certificates/uipath .pdf",
-    },
-    {
-      id: "be10x-ai",
-      title: "AI Tools Workshop",
-      provider: "be10x",
-      description:
-        "Hands-on certification focused on modern AI tools, productivity workflows, prompt engineering, AI-assisted content generation, and practical AI implementation strategies.",
-      date: "2024",
-      logo: '<path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/><path d="M20 3v4"/><path d="M22 5h-4"/><path d="M4 17v2"/><path d="M5 18H3"/>',
-      image:
-        "src/assets/be10x ai tool workshop.jpg",
-      url: "src/assets/certificates/Ai tool workshop.pdf",
-    },
-    {
-      id: "apis-biz",
-      title: "Startup Business Management Program",
-      provider: "AP Innovation Society",
-      description:
-        "Entrepreneurship and business management certification covering startup ecosystems, innovation strategies, business planning, leadership fundamentals, and entrepreneurial thinking.",
-      date: "2024",
-      logo: '<rect width="20" height="14" x="2" y="7" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>',
-      image:
-        "src/assets/startup business management program.jpg",
-      url: "src/assets/certificates/Startup Business .pdf",
-    },
-    {
-      id: "great-c",
-      title: "C for Beginners",
-      provider: "Great Learning",
-      description:
-        "Programming fundamentals certification covering C language basics, problem-solving techniques, control structures, functions, arrays, pointers, and foundational software development concepts.",
-      date: "2024",
-      logo: '<polyline points="4 17 10 11 4 5"/><line x1="12" x2="20" y1="19" y2="19"/>',
-      image:
-        "src/assets/c for beginners.jpg",
-      url: "src/assets/certificates/C for Begineers.pdf",
-    },
+
+ 
   ];
 
   let selectedCertIndex = 1;
